@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script async defer charset="" crossorigin="" integrity="" lang="" src="" type="">
+        /*
+        The primary method of inserting JavaScript into an HTML page is via the <script> element.
+        This element was created by Netscape and first implemented in Netscape Navigator 2. It was later
+        added to the formal HTML specification. There are six attributes for the <script> element:
+
+        ➤➤ async—Optional. Indicates that the script should begin downloading immediately
+        but should not prevent other actions on the page such as downloading resources or
+        waiting for other scripts to load. Valid only for external script files.
+
+        ➤➤ charset—Optional. The character set of the code specified using the src attribute.
+        This attribute is rarely used because most browsers don’t honor its value.
+
+        ➤➤ crossorigin—Optional. Configures the CORS settings for the associated request; by
+        default, CORS is not used at all. crossorigin="anonymous" will configure the request
+        for the file to not have the credentials flag set. crossorigin="use-credentials" will
+        set the credentials flag, meaning the outgoing request will include credentials.
+        
+        ➤➤ defer—Optional. Indicates that the execution of the script can safely be deferred until after
+        the document’s content has been completely parsed and displayed. Valid only for external
+        scripts. Internet Explorer 7 and earlier also allow for inline scripts.
+
+        ➤➤ integrity—Optional. Allows for verification of Subresource Integrity (SRI) by checking
+        the retrieved resource against a provided cryptographic signature. If the signature of the
+        retrieved resource does not match that specified by this attribute, the page will error and the
+        script will not execute. This is useful for ensuring that a Content Delivery Network (CDN)
+        is not serving malicious payloads.
+
+        ➤➤ language—Deprecated. Originally indicated the scripting language being used by the code
+        block (such as "JavaScript", "JavaScript1.2", or "VBScript"). Most browsers ignore this
+        attribute; it should not be used.
+
+        ➤➤ src—Optional. Indicates an external file that contains code to be executed.
+
+        ➤➤ type—Optional. Replaces language; indicates the content type (also called MIME type)
+        of the scripting language being used by the code block. Traditionally, this value has always
+        been "text/javascript", though both "text/javascript" and "text/ecmascript" are
+        deprecated. JavaScript files are typically served with the "application/x-javascript"
+        MIME type even though setting this in the type attribute may cause the script to be
+        ignored. Other values that work in non–Internet Explorer browsers are "application/
+        javascript" and "application/ecmascript". If the value is module, the code is treated as
+        an ES6 module and only then is eligible to use the import and export keywords.
+        */
+    </script>
+</head>
+<body>
+    <script>
+        /*
+            Tag Placement
+
+            Traditionally, all <script> elements were placed within the <head> element on a page
+            The main purpose of this format was to keep external file references, both CSS files and JavaScript
+            files, in the same area. However, including all JavaScript files in the <head> of a document means that
+            all of the JavaScript code must be downloaded, parsed, and interpreted before the page begins rendering
+            (rendering begins when the browser receives the opening <body> tag). For pages that require a lot
+            of JavaScript code, this can cause a noticeable delay in page rendering, during which time the browser
+            will be completely blank. For this reason, modern web applications typically include all JavaScript
+            references in the <body> element, after the page content, as shown here.
+        */
+    </script>
+    
+
+    
+    
+</body>
+</html>
