@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
-     💻 <a href="https://www.onjava8.com/" alt="Bruce Eckel - On Java 8 Book Official Site" target="_blank"> Professional JavaScript for Web Developers by Matt Frisbie </a>
+     💻 <a href="https://www.wiley.com/en-us/Professional+JavaScript+for+Web+Developers%2C+4th+Edition-p-9781119366447#:~:text=Professional%20JavaScript%20for%20Web%20Developers%20is%20the%20essential%20guide%20to,a%20more%20sophisticated%20JavaScript%20developer." alt="Matt Frisbie - Professional JavaScript for Web Developers" target="_blank"> Professional JavaScript for Web Developers by Matt Frisbie </a>
 </h1>
 
 ![](https://raw.githubusercontent.com/georgealan/book-study-professional-javaScript-for-web-developers/main/assets/ProfJavaScriptWebDevBanner.jpg)
@@ -57,7 +57,7 @@ This project is about my study path for learning JavaScript, for solidify my kno
 
 Initially, this project uses the following technologies, this list may grow during the project:
 
-#### **JavaScript**  ([JavaScript](https://www.oracle.com/java/technologies/downloads/))
+#### **JavaScript**  ([JavaScript](https://www.javascript.com/))
 
 -   **[JavaScript](https://react-icons.github.io/react-icons/)**
 
